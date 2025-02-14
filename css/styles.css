@@ -1,0 +1,51 @@
+body {
+    font-size: 20px; 
+    margin-left: 10em; 
+    margin-right: 10em; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: coral; 
+}
+
+#para1 {
+    color: firebrick; 
+    background-color: beige;
+}
+
+#para2 {
+    color: darkorchid;
+    margin-top: 50px;
+}
+
+ul li {
+    font-style: italic;
+}
+
+.rock {
+    color: deepskyblue;  
+}
+
+.country {
+    color: darkgreen;
+}
+
+.grunge {
+    color: grey;
+}
+
+.pop {
+    color: hotpink;
+}
+
+img {
+    float: left;
+    border-radius: 2em;
+    margin-right: 3em;
+}
+
+div > p {
+    font-style: italic;
+    color: crimson;
+}
