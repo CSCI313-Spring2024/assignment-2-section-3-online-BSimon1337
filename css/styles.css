@@ -1,21 +1,55 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
+/* Navigation Bar */
 .navbar {
-    margin-bottom: 20px;
+    background-color: #343a40;
+    padding: 10px 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar a:hover {
+    background-color: #495057;
+    transition: 0.3s ease-in-out;
 }
 
+/* Main Content */
 .container {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
-.footer {
-    background: #343a40;
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: #343a40;
     color: white;
     text-align: center;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    padding: 10px 0;
 }
+
+img {
+    max-width: 75%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button, a {
+    transition: all 0.3s ease;
+}
+button:hover, a:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
